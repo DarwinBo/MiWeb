@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto || DarwinB</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/formulario.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header__form"  id="inicio">
+        <img src="/assets/img/menu-ico.svg" alt="" class="hamburguer">
+        <nav class="menu__navegacion">
+            <a href="/index.html">Inicio</a>
+            <a href="/inicioSesion.html">Login US</a>
+            <a href="/formulario.html">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Contactanos</h1>
+            <p class="copy">Para mayor información puedes contactarnos y te atenderemos</p>
+        </div>
+    </header>
+    <section>
+        <div class="contenedor__formulario">
+            <div class="formulario">
+                <form id="formulario" action="">
+                    <label class="label__formulario" for="nombre">Nombre</label>
+                    <input class="input__formulario" type="text" id="nombre" name="nombre" required placeholder="Usuario">
+                    <label class="label__formulario" for="email">Email</label>
+                    <input class="input__formulario" type="email" id="email" name="email" required placeholder="email@example.com">
+                    <label class="label__formulario" for="numero">Número</label>
+                    <input class="input__formulario" type="number" id="numero" name="numero" required placeholder="+34 624581325">
+                    <label class="label__formulario" for="mensaje">Mensaje</label>
+                    <textarea class="input__formulario mensaje" name="mensaje" id="mensaje" cols="30" rows="5" required placeholder="Escriba su mensaje"></textarea>
+                    
+                    <div class="form__contact">
+                        <h2 class="sub__form">¿Por donde desea ser contactado?</h2>
+                        
+                        <input class="input__subForm" type="radio" id="whatsapp" name="radio" checked>  
+                        <label class="label__subForm" for="radio">Whatsapp</label>
+                        <input class="input__subForm" type="radio" id="email" name="radio">  
+                        <label class="label__subForm" for="radio">Email</label>
+                        <input class="input__subForm" type="radio" id="llamada" name="radio">  
+                        <label class="label__subForm" for="radio">Llamada</label>
+                        <button class="button__enviar" type="submit">✔</button>
+               
+                    </div>
+                    
+                </form>
+                
+            </div>
+          
+        </div>
+        
+    </section>
+    <footer id="contacto">
+        <div class="contenedor footer__content">
+            <div class="contact__us">
+                <h2 class="brand">DarwinB Developer</h2>
+                <p>Somos expertos en la creación de tus sueños</p>
+            </div>
+            <div class="social__media">
+                <a href="./" class="social__media-icon">
+                    <i class='bx bxl-facebook' ></i>
+                </a>
+                <a href="./" class="social__media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social__media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="/assets/js/Menu.js"></script>
+    <script src="/assets/js/Lightbox.js"></script>
+</body>
+</html>

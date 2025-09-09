@@ -1,0 +1,75 @@
+.header__form{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(251, 194, 235, 0.40) 0%, rgba(166, 192, 238, 0.40) 100%), url(/assets/img/form.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contenedor__formulario{
+    display: flex;
+    justify-content: center;
+    background: url(/assets/img/fondo_form.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formulario{
+    display: flex;
+    margin: 1.5rem;
+    width: 48%;
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+    padding: 3.5rem;
+}
+
+.label__formulario{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding: .5rem;
+    color: #fff;
+    font-size: 15px;
+}
+
+.input__formulario{
+   width: 100%;
+   text-align: center;
+}
+
+.mensaje{
+    resize: none;
+}
+
+.form__contact{
+    color: #fff;
+    
+}
+
+.sub__form{
+    font-size: 15px;
+    margin-bottom: .5rem;
+}
+
+
+.input__subForm{
+    margin-left: .5rem;
+}
+
+.button__enviar{
+    padding: 0 1rem;
+    margin: 0 1rem;
+    border-radius: 10%;
+    font-size: 15px;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    cursor: pointer;
+}
+
+.button__enviar:hover{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+
+
